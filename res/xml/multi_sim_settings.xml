@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:key="multi_sim_settings">
+        <ListPreference android:persistent="false" android:entries="@array/multi_sim_entries_voice" android:title="@string/voice_title" android:key="voice" android:entryValues="@array/multi_sim_values_voice" />
+        <ListPreference android:persistent="false" android:entries="@array/multi_sim_entries" android:title="@string/data_title" android:key="data" android:entryValues="@array/multi_sim_values" />
+        <ListPreference android:persistent="false" android:entries="@array/multi_sim_entries" android:title="@string/sms_title" android:key="sms" android:entryValues="@array/multi_sim_values" />
+        <PreferenceScreen android:persistent="false" android:title="@string/sel_sub_title" android:key="config_sub" android:summary="@string/sel_sub_summary">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.SetSubscription" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

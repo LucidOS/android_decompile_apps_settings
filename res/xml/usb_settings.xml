@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_title_usb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:enabled="false" android:title="@string/usb_connection_category" android:summary="@string/usb_connection_summary" />
+    <com.android.settings.RadioButtonPreference android:enabled="false" android:title="@string/usb_mtp_title" android:key="usb_mtp" android:summary="@string/usb_mtp_summary" />
+    <com.android.settings.RadioButtonPreference android:enabled="false" android:title="@string/usb_ptp_title" android:key="usb_ptp" android:summary="@string/usb_ptp_summary" />
+    <com.android.settings.RadioButtonPreference android:enabled="false" android:title="@string/usb_sdcard_title" android:key="usb_sdcard" android:summary="@string/usb_sdcard_summary" />
+    <com.android.settings.RadioButtonPreference android:enabled="false" android:title="@string/usb_pcmode_title" android:key="usb_pcmode" android:summary="@string/usb_pcmode_summary" />
+    <com.android.settings.SingleLineCheckBoxPreference android:title="@string/usb_use_default_title" android:key="use_default" android:summary="@string/usb_use_default_title" />
+    <com.android.settings.ButtonPreference android:focusable="false" android:focusableInTouchMode="false" android:title="@string/usb_help" android:key="help" />
+</PreferenceScreen>

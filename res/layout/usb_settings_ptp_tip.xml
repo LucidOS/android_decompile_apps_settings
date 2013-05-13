@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/tips_ptp_tip1" />
+            <RelativeLayout android:background="@drawable/system_setting" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tip1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/tips_ptp_scanner_and_camera" />
+                <ImageView android:id="@id/separater" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/system_setting_line" android:scaleType="fitXY" android:layout_below="@id/tip1" />
+                <ImageView android:id="@id/icon" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0px" android:src="@drawable/pantech_white_pcdisplay" android:layout_below="@id/separater" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0px" android:text="@string/tips_ptp_model" android:layout_toRightOf="@id/icon" android:layout_below="@id/separater" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="23.0px" android:text="@string/tips_ptp_digital_camera" android:layout_toRightOf="@id/model" android:layout_below="@id/separater" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/tips_ptp_tip2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

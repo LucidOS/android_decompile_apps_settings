@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="80.0px">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/view_gps_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_gps_position" />
+        <LinearLayout android:id="@id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_gps_latitude" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/view_latitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_gps_longitude" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/view_longitude" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0px" android:layout_marginTop="40.0px">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_cno_measurement" />
+        <LinearLayout android:id="@id/LinearLayout06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_value_cno" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/view_cno_measure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
