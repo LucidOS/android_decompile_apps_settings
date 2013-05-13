@@ -1868,5 +1868,9 @@ PC tool에 따라 관리할 수 있는 파일의 종류가 달라집니다."</st
     <string name="dialog_ptp_tips">"카메라(PTP)를 사용하기 위해서는 연결하는 PC의 OS에 따라 추가적인 프로그램이 필요할 수 있습니다.
 더 자세한 내용은 ‘USB 연결 설정’ 아래의 도움말 버튼을 눌러서 확인하세요."</string>
     <string name="dialog_do_not_show_again">다시 보지 않기</string>
+    <string name="LucidOS">Lucid OS</string>
+    <string name="OTAUpdater">LucidOS OTAUpdater</string>
     <string name="vibrate_on_ring_title">진동 및 벨소리 동시</string>
+	<string name="LucidOS_version">LucidOS Version</string>
+	<string name="LucidOS_version_default">LucidOS_For_VegaRacer2</string>
 </resources>
